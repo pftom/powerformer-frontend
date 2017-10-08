@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import logo from './logo.jpeg';
 import './App.css';
 
+// import mindNode
+import MindNode from './components/MindNode.js';
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to Powerformer</h1>
-        </header>
+        <MindNode />
       </div>
     );
   }
